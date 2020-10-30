@@ -1,0 +1,2 @@
+ConnectionStrings: 
+    PricingConnection: User ID=postgres;Password=Password1234;Database="Microservices.Demo.Pricing";Host=microservices.demo.pricing.db;Port=5432

@@ -1,0 +1,18 @@
+ConnectionStrings: 
+    PolicyConnection: Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Password1234
+ServicesUrl:
+    PricingApiUrl: https://Microservices.Demo.Pricing.API/api/pricing  
+RabbitMQSettings:
+    Username: admin
+    Password: admin
+    Port: 5672
+    VirtualHost: /
+    Hostnames: 
+        - microservices.demo.rabbitmq    
+    RequestTimeout: 10
+    PublishConfirmTimeout: 1
+    RecoveryInterval: 1
+    PersistentDeliveryMode: true
+    AutoCloseConnection: true
+    AutomaticRecovery: true
+    TopologyRecovery: true

@@ -1,0 +1,18 @@
+ConnectionStrings: 
+    MicroservicesMonitoringDashboardConnection: Data Source=PE-LPALQ00769\MSSQLSERVER2019;Initial Catalog=Microservices.Monitoring.Dashboard;Persist Security Info=True;User ID=sa;Password=Password1234
+HealthChecksUI: 
+    HealthChecks:
+        -   
+            Name: Microservices.Monitoring.Sales.API
+            Uri: https://localhost:44337/healthchecks-data-ui
+        -   
+            Name: Microservices.Monitoring.Products.API
+            Uri: https://localhost:44394/healthchecks-data-ui
+    Webhooks:
+        -
+            Name:
+            Uri:
+            Payload:
+            RestoredPayload:    
+    EvaluationTimeInSeconds: 10
+    MinimumSecondsBetweenFailureNotifications: 60

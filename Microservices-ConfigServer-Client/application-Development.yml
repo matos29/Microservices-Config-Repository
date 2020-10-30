@@ -1,0 +1,5 @@
+ConnectionStrings: 
+    MicroservicesClientConnectionString: Data Source=.;Initial Catalog=LibraryDevelopment;Persist Security Info=True;User ID=galaxy;Password=Password123  
+JwtSettings: 
+    Audience: Microservices.ConfigServer.ClientDevelopment    
+  

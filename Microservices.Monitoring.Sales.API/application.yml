@@ -1,0 +1,2 @@
+ConnectionStrings: 
+    MicroservicesMonitoringConnection: Data Source=PE-LPALQ00769\MSSQLSERVER2019;Initial Catalog=Microservices.Monitoring;Persist Security Info=True;User ID=sa;Password=Password1234

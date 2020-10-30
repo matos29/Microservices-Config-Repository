@@ -1,0 +1,8 @@
+AuthSettings:
+    Secret: THIS_IS_A_RANDOM_SECRET_2e7a1e80-16ee-4e52-b5c6-5e8892453459
+    AllowedAuthOrigins: 
+        - https://localhost:44300  
+SecurityDatabaseSettings:
+    UsersCollectionName: Users
+    ConnectionString: mongodb://microservices.demo.auth.db:27017
+    DatabaseName: SecurityDB
